@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 /* components */
-// new rendering types
-import NewRederingTypesStrings from './NewRenderingTypes/Strings';
-import NewRederingTypesFragments from './NewRenderingTypes/Fragments';
-import NewRederingTypesArrays from './NewRenderingTypes/Arrays';
+// Error Handling
+import ErrorBoundary from './ErrorBoundary';
+import BrokenComponent from './BrokenComponent';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>New Rendering Types</h2>
-        <NewRederingTypesStrings/>
-        <NewRederingTypesFragments/>
-        <NewRederingTypesArrays/>
+        <h2>Error Handling</h2>
+        <ErrorBoundary>
+          <BrokenComponent />
+        </ErrorBoundary>
       </div>
     );
   }

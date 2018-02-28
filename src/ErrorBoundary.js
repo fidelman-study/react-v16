@@ -1,0 +1,20 @@
+import React from 'react';
+
+class ErrorBoundary extends React.Component {
+    state = {
+        hasError: false
+    }
+
+    componentDidCatch(error, info) {
+        this.setState({ hasError: true });
+        console.info(info);
+        console.error(error);
+    }
+
+    render() {
+        if (this.state.hasError) return <h1>Something Wrong</h1>;
+        return this.props.children;
+    }
+}
+
+export default ErrorBoundary;
