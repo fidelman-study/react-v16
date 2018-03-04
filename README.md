@@ -7,6 +7,6 @@ Read articles:
 - [x] [Repo infrastructure](https://reactjs.org/blog/2017/12/15/improving-the-repository-infrastructure.html)
 - [x] [DOM Attributes](https://reactjs.org/blog/2017/09/08/dom-attributes-in-react-16.html)
 - [x] [Error handling](https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html)
-- [ ] [React 16](https://auth0.com/blog/whats-new-in-react16/)
-- [ ] [Medium](https://medium.com/@baphemot/whats-new-in-react-16-3-d2c9b7b6193b)
+- [x] [React 16](https://auth0.com/blog/whats-new-in-react16/)
+- [x] [Medium](https://medium.com/@baphemot/whats-new-in-react-16-3-d2c9b7b6193b)
 - [x] [Portals](https://reactjs.org/docs/portals.html)
